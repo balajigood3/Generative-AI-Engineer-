@@ -1,0 +1,5 @@
+test_id,task,expected_check,pass,notes
+SUM-01,summarization,Summary contains source-grounded key points,TRUE,Sample deterministic check
+CLS-01,classification,Label belongs to allowed categories,TRUE,Sample deterministic check
+JSON-01,structured output,Output parses as valid JSON,TRUE,Sample deterministic check
+COD-01,code assistance,Includes root cause and a test,TRUE,Human review still required
